@@ -42,7 +42,7 @@ function App() {
   
   return (
     <main>
-      <h1 className='text-4xl text-red01'>To Do List</h1>
+      <h1 className='text-4xl text-gray01'>To Do List</h1>
       <div className="bg-gray03 text-white rounded max-w-[600px] m-auto">
         <Header tab={tab} setTab={setTab}/>
         {
